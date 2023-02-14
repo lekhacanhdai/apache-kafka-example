@@ -6,6 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
@@ -18,7 +19,7 @@ import java.sql.Timestamp;
 @NoArgsConstructor
 @Getter
 @Setter
-public class ChatMessage {
+public class ChatMessage /* implements Serializable */{
     private Long userId;
     private String username;
     private String message;

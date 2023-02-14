@@ -1,7 +1,6 @@
 package com.example.kafka.service;
 
 import com.example.kafka.message.ChatMessage;
-import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Qualifier;
